@@ -109,6 +109,18 @@ body{
     border-radius: 4px;
 }
 
+
+
+.attractie{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.attractie img{
+  width: 100px;
+}
+
 /* HEADER + NAV */
 .container.header{
     display: flex;
@@ -133,7 +145,7 @@ header{
 }
 
 header, nav a{
-    color: #f5fcf8;
+    color: black;
 }
 
 .logo{
